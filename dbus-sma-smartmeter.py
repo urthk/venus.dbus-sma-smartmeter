@@ -267,7 +267,7 @@ def main():
     DBusGMainLoop(set_as_default=True)
 
     pvac_output = DbusSMAEMService(
-        servicename='com.victronenergy.grid.smaem', deviceinstance=0)
+        servicename='com.victronenergy.grid.smaem', deviceinstance=41)
 
     mainloop = GLib.MainLoop()
     mainloop.run()
